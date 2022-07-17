@@ -1,3 +1,5 @@
+//Try to draw 2 triangles next to each other using glDrawArrays by adding more vertices to your data.
+
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 
