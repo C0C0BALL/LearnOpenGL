@@ -207,7 +207,6 @@ void processInput(GLFWwindow* window)
     if (glfwGetKey(window, GLFW_KEY_UP) == GLFW_PRESS)
     {
         mixValue += 0.001f; // change this value accordingly (might be too slow or too fast based on system hardware)
-        std::cout << mixValue << '\n';
         if (mixValue >= 1.0f)
             mixValue = 1.0f;
     }
